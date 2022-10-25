@@ -1,0 +1,34 @@
+version: '2'
+services:
+  mariadb:
+    image: docker.io/dinhkiet/mariadb:latest
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=vns_crm
+      - MARIADB_DATABASE=db_vnscrm
+      - MARIADB_PASSWORD=crm123
+    volumes:
+      - 'mariadb_data:/vns-crm/mariadb'
+  suitecrm:
+    image: docker.io/dinhkiet/suitecrm:latest
+    ports:
+      - '80:8080'
+      - '443:8443'
+    environment:
+      - SUITECRM_DATABASE_HOST=mariadb
+      - SUITECRM_DATABASE_PORT_NUMBER=3306
+      - SUITECRM_DATABASE_USER=vns_crm
+      - SUITECRM_DATABASE_NAME=db_vnscrm
+      - SUITECRM_DATABASE_PASSWORD=crm123
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - 'suitecrm_data:/vns-crm/suitecrm'
+    depends_on:
+      - mariadb
+volumes:
+  mariadb_data:
+    driver: local
+  suitecrm_data:
+    driver: local
