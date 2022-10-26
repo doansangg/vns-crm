@@ -26,8 +26,8 @@
     2. docker-compose up -d
     ```
 6. Go to link in client
-    * ##### Go to link http with http: http://117.4.247.68:10709/#/Login
-    * ##### Go to link http with https: https://117.4.247.68:10713/#/Login
+    * ##### Go to link with http: http://117.4.247.68:10709/#/Login
+    * ##### Go to link with https: https://117.4.247.68:10713/#/Login
 7. Note
     ```
     If you want deploy to other port. Edit line 15-16 with
