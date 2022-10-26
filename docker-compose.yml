@@ -13,8 +13,8 @@ services:
   suitecrm:
     image: docker.io/dinhkiet/suitecrm:latest
     ports:
-      - '80:8080'
-      - '443:8443'
+      - '10709:8080'
+      - '10713:8443'
     environment:
       - SUITECRM_DATABASE_HOST=mariadb
       - SUITECRM_DATABASE_PORT_NUMBER=3306
@@ -32,3 +32,7 @@ volumes:
     driver: local
   suitecrm_data:
     driver: local
+networks:
+  default:
+    driver_opts:
+      com.docker.network.bridge.host_binding_ipv4: 0.0.0.0
