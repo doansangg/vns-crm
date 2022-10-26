@@ -34,3 +34,5 @@
     '10709:8080': http - 8080(port within docker) - 10709 (port public) 
     '10713:8443': https - 8443(port within docker) - 10713 (port public)
     ```
+
+* Link issues slove : https://serverfault.com/questions/1076500/docker-create-two-container-got-two-different-network-id-instead-of-using-defa
