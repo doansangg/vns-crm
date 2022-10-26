@@ -33,6 +33,6 @@ volumes:
   suitecrm_data:
     driver: local
 networks:
-  default:
+  my_network:
     driver_opts:
       com.docker.network.bridge.host_binding_ipv4: 0.0.0.0
