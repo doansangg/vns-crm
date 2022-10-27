@@ -41,16 +41,29 @@
     ```
     Bước 1: Download file install tại đây:
         https://github.com/luudinhkiet/VNS-CR-vnm
+    ```
+    ```
     Bước 2: Đăng nhập vào VNS-CRM, chọn mục " Quản trị viên"
-        ![1](https://user-images.githubusercontent.com/71433332/198084966-ad5a3716-d24c-42c6-9a62-2a7f67f6569a.png)
+    ```
+     ![1](https://user-images.githubusercontent.com/71433332/198170068-87606001-76cd-4b09-a7f7-b87a8e230fd8.png)
+   
+    ```
     Bước 3: Chọn bộ nạp mô-đun tại phần công cụ quản trị:
-        ![2](https://user-images.githubusercontent.com/71433332/198085681-a6167627-0d55-41df-9de4-59ee81a2c782.png)
+    ```
+    ![2](https://user-images.githubusercontent.com/71433332/198170397-53fa66b3-40b8-4e19-9cfe-b259d2845dc7.png)
+    ```
     Bước 4: Upload file vừa tải về :
-        ![3](https://user-images.githubusercontent.com/71433332/198086243-e12c1fc6-5f78-4bfa-8de9-9f8e1653c79e.png)
-        4.1 : chọn Tải lên :
-           ![3](https://user-images.githubusercontent.com/71433332/198086466-9dca6e64-5e2c-4d21-b7f3-66244fc8c275.png)
-        4.2 : chọn Cài đặt :
-            ![4](https://user-images.githubusercontent.com/71433332/198087111-930ea0f2-fa16-4a3a-b15c-4fd2c5ae5bf0.png)
+    ```
+    ![3](https://user-images.githubusercontent.com/71433332/198086243-e12c1fc6-5f78-4bfa-8de9-9f8e1653c79e.png)
+    ```
+    4.1 : chọn Tải lên :
+    ```
+    ![3](https://user-images.githubusercontent.com/71433332/198086466-9dca6e64-5e2c-4d21-b7f3-66244fc8c275.png)
+    ```    
+    4.2 : chọn Cài đặt :
+    ```
+    ![4](https://user-images.githubusercontent.com/71433332/198087111-930ea0f2-fa16-4a3a-b15c-4fd2c5ae5bf0.png)
+    ```
     Bước 5: đi đến Quản trị -> chọn Sửa chữa -> chọn Nhanh chóng sửa chữa và xây dựng lại.
     Bước 6: log out.
      ```
